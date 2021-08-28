@@ -1,70 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Bootstrap Css -->
     <link rel="stylesheet" href="css/bootstrap.css" />
     <!-- Custom css -->
     <link rel="stylesheet" href="css/style.css" />
-    <title>Bootstrap Day 04</title>
+    <title>Bootstrap Day 05</title>
   </head>
   <body>
-    <section>
-      <div class="container text-center mt-5">
+    <section class="accordion-section">
+      <div class="container">
         <div class="row">
-          <h1 class="position-relative p-2 fw-bold">Why Choose Us?</h1>
-          <p>Duis autem vel eum iriure dolor in hendreit in vumtate</p>
-        </div>
-        <div class="row mt-5">
-          <div class="col-lg-4 col-sm-6 p-3">
-            <img src="images/icon01.png" class="d-block mx-auto mb-4" />
-            <h2 class="fs-5 fw-bold">Charity for Education</h2>
-            <p class="mx-5 mx-sm-0">
-              Duis autem vel eum iriure dolor in hendre amvul utate velit esse
-              molestie cons.
+          <div
+            class="col-lg-6 col-md-8 col-12 offset-lg-6 offset-md-4 p-4"
+            id="accordionExample"
+          >
+            <h1 class="text-uppercase fs-3 fw-bold">
+              reputation <span class="text-primary">management</span>
+            </h1>
+            <p class="text-black-50 mb-4 mt-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At vel
+              harum natus in ipsam, laudantium numquam facilis sequi possimus
+              repudiandae.
             </p>
-          </div>
-          <div class="col-lg-4 col-sm-6 p-3">
-            <img src="images/icon02.png" class="d-block mx-auto mb-4" />
-            <h2 class="fs-5 fw-bold">Home for Homeless</h2>
-            <p class="mx-5 mx-sm-0">
-              Duis autem vel eum iriure dolor in hendre amvul utate velit esse
-              molestie cons.
-            </p>
-          </div>
-          <div class="col-lg-4 col-sm-6 p-3">
-            <img src="images/icon03.png" class="d-block mx-auto mb-4" />
-            <h2 class="fs-5 fw-bold">Help Little Hands</h2>
-            <p class="mx-5 mx-sm-0">
-              Duis autem vel eum iriure dolor in hendre amvul utate velit esse
-              molestie cons.
-            </p>
-          </div>
-          <div class="col-lg-4 col-sm-6 p-3">
-            <img src="images/icon04.png" class="d-block mx-auto mb-4" />
-            <h2 class="fs-5 fw-bold">Save Children</h2>
-            <p class="mx-5 mx-sm-0">
-              Duis autem vel eum iriure dolor in hendre amvul utate velit esse
-              molestie cons.
-            </p>
-          </div>
-          <div class="col-lg-4 col-sm-6 p-3">
-            <img src="images/icon05.png" class="d-block mx-auto mb-4" />
-            <h2 class="fs-5 fw-bold">Donate for children</h2>
-            <p class="mx-5 mx-sm-0">
-              Duis autem vel eum iriure dolor in hendre amvul utate velit esse
-              molestie cons.
-            </p>
-          </div>
-          <div class="col-lg-4 col-sm-6 p-3">
-            <img src="images/icon06.png" class="d-block mx-auto mb-4" />
-            <h2 class="fs-5 fw-bold">Give Scholarship</h2>
-            <p class="mx-5 mx-sm-0">
-              Duis autem vel eum iriure dolor in hendre amvul utate velit esse
-              molestie cons.
-            </p>
+            <div class="mb-3 border border-radius">
+              <button
+                class="
+                  accordion-button
+                  text-capitalize
+                  fs-6
+                  shadow-none
+                  bg-white
+                  text-dark
+                  fw-bold
+                "
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+              >
+                Identifying Problem source
+              </button>
+              <div
+                class="collapse show"
+                id="collapseOne"
+                data-bs-parent="#accordionExample"
+              >
+                <p class="accordion-body text-black-50 py-0">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Pariatur eaque quam reprehenderit aut maxime quasi sed maiores
+                  quaerat reiciendis autem.
+                </p>
+              </div>
+            </div>
+
+            <div class="mb-3 border border-radius">
+              <button
+                class="
+                  accordion-button
+                  text-capitalize
+                  fs-6
+                  shadow-none
+                  bg-white
+                  text-dark
+                  fw-bold
+                "
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+              >
+                Identifying Problem source
+              </button>
+              <div
+                class="collapse"
+                id="collapseTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <p class="accordion-body text-black-50 py-0">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Pariatur eaque quam reprehenderit aut maxime quasi sed maiores
+                  quaerat reiciendis autem.
+                </p>
+              </div>
+            </div>
+
+            <div class="mb-3 border border-radius">
+              <button
+                class="
+                  accordion-button
+                  text-capitalize
+                  fs-6
+                  shadow-none
+                  bg-white
+                  text-dark
+                  fw-bold
+                "
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+              >
+                Identifying Problem source
+              </button>
+              <div
+                class="collapse"
+                id="collapseThree"
+                data-bs-parent="#accordionExample"
+              >
+                <p class="accordion-body text-black-50 py-0">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Pariatur eaque quam reprehenderit aut maxime quasi sed maiores
+                  quaerat reiciendis autem.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
